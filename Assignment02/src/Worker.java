@@ -65,7 +65,8 @@ public class Worker {
 	 
 	public void memberSort() 
 	{
-		 MemberList.sort(null);
+		 //MemberList.sort(null);
+		 Collections.sort(MemberList);
 		 System.out.println("Sorted name:");
 		 Iterator<Member> iterator;
 			for(iterator = MemberList.iterator(); iterator.hasNext(); ) {
